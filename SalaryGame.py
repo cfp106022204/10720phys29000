@@ -19,5 +19,7 @@ for i in range(k):
 bins=10
 plt.clf()
 plt.hist(money,bins)
+plt.xlabel("Money")
+plt.ylabel("Number of Student")
 plt.ylim(0,n)
 plt.show()
